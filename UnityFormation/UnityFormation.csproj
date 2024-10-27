@@ -136,6 +136,8 @@
     <Compile Include="App_Start\UnityMvcActivator.cs" />
     <Compile Include="ClassesTutor\IMyRepository.cs" />
     <Compile Include="ClassesTutor\IMyService.cs" />
+    <Compile Include="ClassesTutor\LoggingExtension.cs" />
+    <Compile Include="ClassesTutor\LoggingStrategy.cs" />
     <Compile Include="ClassesTutor\MyRepository.cs" />
     <Compile Include="ClassesTutor\MyServiceTutor.cs" />
     <Compile Include="Controllers\HomeController.cs" />

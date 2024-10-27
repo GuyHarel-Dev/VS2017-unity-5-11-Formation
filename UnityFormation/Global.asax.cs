@@ -27,6 +27,9 @@ namespace UnityFormation
             container.RegisterType<IMyService, MyService>();
             container.RegisterType<IMyRepository, MyRepository>();
 
+            // Ajouter l'extension de journalisation
+            container.AddExtension(new LoggingExtension());
+
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
 
 
